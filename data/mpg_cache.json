@@ -118,5 +118,11 @@
     "mpg_highway": "24",
     "mpg_combined": "21",
     "fuel_type_epa": "Regular"
+  },
+  "2023|ford|f-150": {
+    "mpg_city": "17",
+    "mpg_highway": "23",
+    "mpg_combined": "20",
+    "fuel_type_epa": "Regular"
   }
 }
