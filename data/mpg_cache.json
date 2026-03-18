@@ -1,0 +1,122 @@
+{
+  "2020|chevrolet|silverado 3500hd ltz": {
+    "mpg_city": "16",
+    "mpg_highway": "22",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
+  },
+  "2020|chevrolet|silverado 3500hd high country": {
+    "mpg_city": "16",
+    "mpg_highway": "22",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
+  },
+  "2021|gmc|sierra 3500hd denali": {
+    "mpg_city": "16",
+    "mpg_highway": "20",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Premium"
+  },
+  "2021|gmc|sierra 1500 slt": {
+    "mpg_city": "16",
+    "mpg_highway": "20",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Premium"
+  },
+  "2022|chevrolet|silverado 3500hd lt": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2022|chevrolet|silverado 1500 rst": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2022|gmc|sierra 1500 at4x": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2022|gmc|sierra 1500 limited elevation": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2023|jeep|gladiator mojave": {
+    "mpg_city": "17",
+    "mpg_highway": "22",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
+  },
+  "2023|chevrolet|silverado 1500 rst": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2023|gmc|sierra 3500hd denali": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2023|chevrolet|silverado 3500hd lt": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2023|gmc|sierra 3500hd sle": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2023|chevrolet|silverado 1500 high country": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2023|gmc|sierra 1500 elevation": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2023|gmc|sierra 1500 at4": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2024|chevrolet|silverado 3500hd lt": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2024|gmc|sierra 1500 denali": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2024|chevrolet|silverado 1500": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  },
+  "2022|ford|f-150": {
+    "mpg_city": "19",
+    "mpg_highway": "24",
+    "mpg_combined": "21",
+    "fuel_type_epa": "Regular"
+  }
+}
