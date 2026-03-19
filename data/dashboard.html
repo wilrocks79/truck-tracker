@@ -1529,7 +1529,7 @@ const PRICE_HISTORY = [
     "event": "new_listing"
   }
 ];
-const LAST_UPDATED = "2026-03-19 15:51";
+const LAST_UPDATED = "2026-03-19 15:08";
 </script>
 
 <div class="shell">
@@ -1568,6 +1568,7 @@ const LAST_UPDATED = "2026-03-19 15:51";
     <div class="filter-group">
       <label>Sort</label>
       <select id="sort-by">
+        <option value="newest-priced">Newest (priced first)</option>
         <option value="price-asc">Price ↑</option>
         <option value="price-desc">Price ↓</option>
         <option value="year-desc">Newest</option>
@@ -1729,6 +1730,11 @@ const LAST_UPDATED = "2026-03-19 15:51";
       const pa = priceNum(a.current_price || a.price);
       const pb = priceNum(b.current_price || b.price);
       switch (sort) {
+        case 'newest-priced':
+          // No-price listings sink to bottom, then sort newest first
+          if (pa && !pb) return -1;
+          if (!pa && pb) return 1;
+          return (parseInt(b.year)||0) - (parseInt(a.year)||0);
         case 'price-asc': return (pa || 999999999) - (pb || 999999999);
         case 'price-desc': return (pb || 0) - (pa || 0);
         case 'year-desc': return (parseInt(b.year)||0) - (parseInt(a.year)||0);
