@@ -132,5 +132,59 @@
     "fuel_type_epa": "Regular"
   },
   "2025|ford|super duty f-350 srw": {},
-  "2022|ford|super duty f-350 srw": {}
+  "2022|ford|super duty f-350 srw": {},
+  "2025|toyota|tacoma trd off road premium package": {
+    "mpg_city": "19",
+    "mpg_highway": "24",
+    "mpg_combined": "21",
+    "fuel_type_epa": "Regular"
+  },
+  "2024|toyota|tacoma trd sport + package": {
+    "mpg_city": "19",
+    "mpg_highway": "24",
+    "mpg_combined": "21",
+    "fuel_type_epa": "Regular"
+  },
+  "2016|nissan|frontier": {
+    "mpg_city": "15",
+    "mpg_highway": "21",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Regular"
+  },
+  "2021|gmc|canyon 4wd denali": {
+    "mpg_city": "19",
+    "mpg_highway": "24",
+    "mpg_combined": "21",
+    "fuel_type_epa": "Regular"
+  },
+  "2022|chevrolet|silverado 1500 ltd lt trail boss": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2022|chevrolet|silverado 1500 work truck": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2022|gmc|sierra 1500 limited pro": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2022|chevrolet|silverado 1500 lt": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2024|gmc|sierra 1500 sle": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
+  }
 }
