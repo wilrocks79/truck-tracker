@@ -25,7 +25,7 @@ from datetime import datetime
 # Ensure we run from the script's directory
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-from config import DEALERS, DATA_DIR, LOG_FILE, INVENTORY_CSV, SCRAPER_PROXY
+from config import DEALERS, DATA_DIR, LOG_FILE, INVENTORY_CSV, SCRAPER_API_KEY
 from scrapers import scrape_edealer, scrape_sm360, Vehicle
 from tracker import update_inventory, ensure_data_dir
 
@@ -120,8 +120,8 @@ def main():
     logger = logging.getLogger(__name__)
 
     logger.info("Starting Squamish truck inventory scrape")
-    if SCRAPER_PROXY:
-        logger.info("Using proxy for outbound requests")
+    if SCRAPER_API_KEY:
+        logger.info("Using ScraperAPI for page fetches")
     start = datetime.now()
 
     # Determine which dealers to scrape

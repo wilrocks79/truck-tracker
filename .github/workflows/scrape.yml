@@ -28,7 +28,7 @@ jobs:
       - name: Run scraper
         run: python run_scraper.py --verbose
         env:
-          SCRAPER_PROXY: ${{ secrets.SCRAPER_PROXY }}
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
 
       - name: Commit updated data
         run: |

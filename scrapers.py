@@ -10,12 +10,7 @@ from dataclasses import dataclass, field
 import requests
 from bs4 import BeautifulSoup
 
-from config import REQUEST_HEADERS, REQUEST_TIMEOUT, REQUEST_PROXIES, SCRAPER_PROXY, TRUCK_MODELS, TRUCK_BODY_TYPES
-
-# When routing through a proxy like ScraperAPI, the proxy terminates TLS on our
-# behalf so Python's default cert verification will fail.  Disable it only when
-# a proxy is configured — direct requests still verify normally.
-_VERIFY_SSL = not bool(SCRAPER_PROXY)
+from config import REQUEST_HEADERS, REQUEST_TIMEOUT, SCRAPER_API_KEY, TRUCK_MODELS, TRUCK_BODY_TYPES
 
 logger = logging.getLogger(__name__)
 
@@ -52,12 +47,22 @@ class Vehicle:
 
 
 def _get_page(url: str) -> Optional[BeautifulSoup]:
-    """Fetch a page and return a BeautifulSoup object."""
+    """Fetch a page and return a BeautifulSoup object.
+
+    When SCRAPER_API_KEY is set, the request is routed through ScraperAPI's
+    API endpoint which handles anti-bot measures that block datacenter IPs.
+    """
     try:
-        resp = requests.get(
-            url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT,
-            proxies=REQUEST_PROXIES, verify=_VERIFY_SSL,
-        )
+        if SCRAPER_API_KEY:
+            resp = requests.get(
+                "https://api.scraperapi.com",
+                params={"api_key": SCRAPER_API_KEY, "url": url},
+                timeout=60,  # ScraperAPI can be slower than direct requests
+            )
+        else:
+            resp = requests.get(
+                url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT,
+            )
         resp.raise_for_status()
         return BeautifulSoup(resp.text, "lxml")
     except requests.RequestException as e:
@@ -357,7 +362,6 @@ def _scrape_sm360_graphql(dealer_config: dict) -> list[Vehicle]:
             headers=headers,
             json={"query": query},
             timeout=REQUEST_TIMEOUT,
-            proxies=REQUEST_PROXIES, verify=_VERIFY_SSL,
         )
 
         if resp.status_code != 200:
@@ -480,7 +484,6 @@ def _scrape_sm360_api(dealer_config: dict) -> list[Vehicle]:
             headers=headers,
             json=body,
             timeout=REQUEST_TIMEOUT,
-            proxies=REQUEST_PROXIES, verify=_VERIFY_SSL,
         )
 
         if resp.status_code != 200:

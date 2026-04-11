@@ -4,11 +4,11 @@ Configuration for Squamish truck inventory tracker.
 
 import os
 
-# Optional HTTP proxy for environments where direct requests get blocked (e.g.
-# GitHub Actions datacenter IPs).  Set the SCRAPER_PROXY env var to a proxy URL
-# like "http://user:pass@proxy-host:port" and all outbound requests will be
-# routed through it.
-SCRAPER_PROXY = os.environ.get("SCRAPER_PROXY", "")
+# Optional ScraperAPI key for environments where direct requests get blocked
+# (e.g. GitHub Actions datacenter IPs).  When set, HTML page fetches are routed
+# through ScraperAPI's API endpoint which handles anti-bot measures.
+# Set the SCRAPER_API_KEY env var to your ScraperAPI key.
+SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "")
 
 DEALERS = {
     "squamish_toyota": {
@@ -76,9 +76,6 @@ REQUEST_HEADERS = {
     "Sec-Fetch-User": "?1",
     "Upgrade-Insecure-Requests": "1",
 }
-REQUEST_PROXIES = (
-    {"http": SCRAPER_PROXY, "https": SCRAPER_PROXY} if SCRAPER_PROXY else None
-)
 
 # Data files
 DATA_DIR = "data"
