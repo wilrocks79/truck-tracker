@@ -2,6 +2,14 @@
 Configuration for Squamish truck inventory tracker.
 """
 
+import os
+
+# Optional HTTP proxy for environments where direct requests get blocked (e.g.
+# GitHub Actions datacenter IPs).  Set the SCRAPER_PROXY env var to a proxy URL
+# like "http://user:pass@proxy-host:port" and all outbound requests will be
+# routed through it.
+SCRAPER_PROXY = os.environ.get("SCRAPER_PROXY", "")
+
 DEALERS = {
     "squamish_toyota": {
         "name": "Squamish Toyota",
@@ -57,10 +65,20 @@ TRUCK_MODELS = [
 # Request settings
 REQUEST_TIMEOUT = 30
 REQUEST_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "Accept-Language": "en-CA,en-US;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Cache-Control": "no-cache",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
 }
+REQUEST_PROXIES = (
+    {"http": SCRAPER_PROXY, "https": SCRAPER_PROXY} if SCRAPER_PROXY else None
+)
 
 # Data files
 DATA_DIR = "data"

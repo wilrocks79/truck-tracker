@@ -10,7 +10,7 @@ from dataclasses import dataclass, field
 import requests
 from bs4 import BeautifulSoup
 
-from config import REQUEST_HEADERS, REQUEST_TIMEOUT, TRUCK_MODELS, TRUCK_BODY_TYPES
+from config import REQUEST_HEADERS, REQUEST_TIMEOUT, REQUEST_PROXIES, TRUCK_MODELS, TRUCK_BODY_TYPES
 
 logger = logging.getLogger(__name__)
 
@@ -49,7 +49,10 @@ class Vehicle:
 def _get_page(url: str) -> Optional[BeautifulSoup]:
     """Fetch a page and return a BeautifulSoup object."""
     try:
-        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
+        resp = requests.get(
+            url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT,
+            proxies=REQUEST_PROXIES,
+        )
         resp.raise_for_status()
         return BeautifulSoup(resp.text, "lxml")
     except requests.RequestException as e:
@@ -349,6 +352,7 @@ def _scrape_sm360_graphql(dealer_config: dict) -> list[Vehicle]:
             headers=headers,
             json={"query": query},
             timeout=REQUEST_TIMEOUT,
+            proxies=REQUEST_PROXIES,
         )
 
         if resp.status_code != 200:
@@ -471,6 +475,7 @@ def _scrape_sm360_api(dealer_config: dict) -> list[Vehicle]:
             headers=headers,
             json=body,
             timeout=REQUEST_TIMEOUT,
+            proxies=REQUEST_PROXIES,
         )
 
         if resp.status_code != 200:
