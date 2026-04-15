@@ -62,3 +62,5 @@ vin,dealer,date,old_price,new_price,event
 3GTUUEE80PG137284,Greg Gardner Motors,2026-04-11,$66900,,removed
 1GC4YTEY2RF330131,Greg Gardner Motors,2026-04-11,$79900,,removed
 3GCUDFEL2RG383833,Coastal Ford Squamish,2026-04-14,$51900,,removed
+1GC4YUEY6LF110469,Greg Gardner Motors,2026-04-15,$68900,$64900,price_change
+1FTFW1E50NFB19304,Coastal Ford Squamish,2026-04-15,$42900,,removed
