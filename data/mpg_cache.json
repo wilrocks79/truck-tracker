@@ -210,5 +210,11 @@
     "mpg_highway": "19",
     "mpg_combined": "17",
     "fuel_type_epa": "Gasoline or E85"
+  },
+  "2021|gmc|sierra 1500 at4": {
+    "mpg_city": "16",
+    "mpg_highway": "20",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Premium"
   }
 }
