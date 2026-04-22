@@ -216,5 +216,11 @@
     "mpg_highway": "20",
     "mpg_combined": "17",
     "fuel_type_epa": "Premium"
+  },
+  "2020|gmc|sierra 3500hd denali": {
+    "mpg_city": "16",
+    "mpg_highway": "22",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
   }
 }

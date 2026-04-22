@@ -75,3 +75,7 @@ vin,dealer,date,old_price,new_price,event
 3TYLB5JN0ST082492,Squamish Toyota,2026-04-18,$59998,,removed
 3GTU9EETXMG139688,Greg Gardner Motors,2026-04-19,,,new_listing
 1GCPYFEDXNZ153610,Greg Gardner Motors,2026-04-21,$39995,,removed
+1GT49WEY9LF111057,Greg Gardner Motors,2026-04-22,,$89900,new_listing
+1GT49TEY3PF208372,Greg Gardner Motors,2026-04-22,,$85968,new_listing
+3GCUKCE88SG145409,Greg Gardner Motors,2026-04-22,$71668,$62980,price_change
+1GCPTEE16N1158235,Greg Gardner Motors,2026-04-22,$56583,,removed
