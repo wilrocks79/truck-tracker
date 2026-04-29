@@ -229,5 +229,11 @@
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
   },
-  "2024|ford|super duty f-350 srw": {}
+  "2024|ford|super duty f-350 srw": {},
+  "2020|chevrolet|silverado 3500hd high country preferred equipment group": {
+    "mpg_city": "16",
+    "mpg_highway": "22",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
+  }
 }
