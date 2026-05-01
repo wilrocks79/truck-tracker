@@ -235,5 +235,29 @@
     "mpg_highway": "22",
     "mpg_combined": "19",
     "fuel_type_epa": "Regular"
+  },
+  "2017|gmc|sierra 1500 sle": {
+    "mpg_city": "16",
+    "mpg_highway": "21",
+    "mpg_combined": "18",
+    "fuel_type_epa": "Regular"
+  },
+  "2020|ford|f-150 xlt": {
+    "mpg_city": "16",
+    "mpg_highway": "22",
+    "mpg_combined": "18",
+    "fuel_type_epa": "Regular"
+  },
+  "2022|gmc|sierra 1500 denali": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2025|ram|1500": {
+    "mpg_city": "17",
+    "mpg_highway": "24",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
   }
 }
