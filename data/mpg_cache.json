@@ -259,5 +259,17 @@
     "mpg_highway": "24",
     "mpg_combined": "19",
     "fuel_type_epa": "Regular"
+  },
+  "2022|ram|1500 rebel": {
+    "mpg_city": "21",
+    "mpg_highway": "29",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2024|ford|ranger": {
+    "mpg_city": "20",
+    "mpg_highway": "24",
+    "mpg_combined": "22",
+    "fuel_type_epa": "Regular"
   }
 }
