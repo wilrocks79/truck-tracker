@@ -132,3 +132,7 @@ vin,dealer,date,old_price,new_price,event
 5TFNA5DBXNX005359,Squamish Toyota,2026-05-12,$54998,,removed
 1GT49TEYXPF208904,Greg Gardner Motors,2026-05-13,,$69900,returned
 1GT19XEY8RF312675,Greg Gardner Motors,2026-05-13,,$105900,new_listing
+5TFNA5DBXNX005359,Squamish Toyota,2026-05-14,,$54998,returned
+1GCPTDEK7S1139935,Greg Gardner Motors,2026-05-14,,$54900,new_listing
+5TFDZ5BN5JX031671,Greg Gardner Motors,2026-05-14,$38900,,removed
+1GT49TEYXPF208904,Greg Gardner Motors,2026-05-14,,,removed

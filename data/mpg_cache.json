@@ -283,5 +283,11 @@
     "mpg_highway": "19",
     "mpg_combined": "17",
     "fuel_type_epa": "Gasoline or E85"
+  },
+  "2025|chevrolet|colorado 4wd z71": {
+    "mpg_city": "17",
+    "mpg_highway": "21",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
   }
 }
