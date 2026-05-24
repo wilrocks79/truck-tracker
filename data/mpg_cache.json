@@ -295,5 +295,11 @@
     "mpg_highway": "21",
     "mpg_combined": "18",
     "fuel_type_epa": "Regular"
+  },
+  "2021|gmc|sierra 1500 elevation": {
+    "mpg_city": "16",
+    "mpg_highway": "20",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Premium"
   }
 }
