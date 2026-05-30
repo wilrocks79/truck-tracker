@@ -307,5 +307,11 @@
     "mpg_highway": "28",
     "mpg_combined": "22",
     "fuel_type_epa": "Diesel"
+  },
+  "2021|toyota|tacoma": {
+    "mpg_city": "18",
+    "mpg_highway": "22",
+    "mpg_combined": "20",
+    "fuel_type_epa": "Regular"
   }
 }
