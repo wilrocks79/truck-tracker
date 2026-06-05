@@ -325,5 +325,11 @@
     "mpg_highway": "26",
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
+  },
+  "2021|gmc|sierra 1500": {
+    "mpg_city": "16",
+    "mpg_highway": "20",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Premium"
   }
 }
