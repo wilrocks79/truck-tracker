@@ -331,5 +331,17 @@
     "mpg_highway": "20",
     "mpg_combined": "17",
     "fuel_type_epa": "Premium"
+  },
+  "2024|toyota|tacoma": {
+    "mpg_city": "19",
+    "mpg_highway": "24",
+    "mpg_combined": "21",
+    "fuel_type_epa": "Regular"
+  },
+  "2022|toyota|tacoma": {
+    "mpg_city": "18",
+    "mpg_highway": "22",
+    "mpg_combined": "20",
+    "fuel_type_epa": "Regular"
   }
 }
