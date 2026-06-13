@@ -186,3 +186,6 @@ vin,dealer,date,old_price,new_price,event
 1N6AD0EV6GN722922,Squamish Toyota,2026-06-10,$21998,,removed
 1FTFW1E57NKE79290,Coastal Ford Squamish,2026-06-11,,$67195,new_listing
 3GTUUBE84RG457046,Greg Gardner Motors,2026-06-12,$52900,,removed
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-06-13,$106900,$105900,price_change
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-06-13,,$105900,returned
+1FTFW1E57NKE79290,Coastal Ford Squamish,2026-06-13,$67195,$46900,price_change
