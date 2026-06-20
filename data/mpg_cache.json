@@ -343,5 +343,11 @@
     "mpg_highway": "22",
     "mpg_combined": "20",
     "fuel_type_epa": "Regular"
+  },
+  "2024|toyota|tundra limited nightshade": {
+    "mpg_city": "17",
+    "mpg_highway": "23",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
   }
 }
