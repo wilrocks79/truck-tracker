@@ -355,5 +355,17 @@
     "mpg_highway": "19",
     "mpg_combined": "17",
     "fuel_type_epa": "Gasoline or E85"
+  },
+  "2022|chevrolet|silverado 1500 custom": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2022|chevrolet|silverado 3500hd ltz": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
   }
 }
