@@ -367,5 +367,11 @@
     "mpg_highway": "26",
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
+  },
+  "2022|ram|1500 big horn": {
+    "mpg_city": "21",
+    "mpg_highway": "29",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
   }
 }
