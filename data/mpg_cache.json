@@ -373,5 +373,11 @@
     "mpg_highway": "29",
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
+  },
+  "2025|ford|f-150": {
+    "mpg_city": "16",
+    "mpg_highway": "24",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
   }
 }
