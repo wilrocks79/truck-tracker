@@ -266,3 +266,12 @@ vin,dealer,date,old_price,new_price,event
 4F4ZR47E63TM05165,Squamish Toyota,2026-07-19,$2200,,removed
 1C6SRFTT0NN480128,Coastal Ford Squamish,2026-07-20,$49900,,removed
 1FTER4FH0KLA95354,Coastal Ford Squamish,2026-07-22,$44900,,removed
+1FT8W3BT1NEF00933,Coastal Ford Squamish,2026-07-24,$70900,$67900,price_change
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-07-24,$102900,$99900,price_change
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-07-24,,$99900,returned
+1FTEW1EP4NFB40539,Coastal Ford Squamish,2026-07-24,$42900,$41500,price_change
+1FTFW3LD0RFB09657,Coastal Ford Squamish,2026-07-24,$56900,$54900,price_change
+1FTER4FH0KLA95354,Coastal Ford Squamish,2026-07-24,$44900,$29900,price_change
+1FTER4FH0KLA95354,Coastal Ford Squamish,2026-07-24,,$29900,returned
+1GC4YUE70NF139458,Greg Gardner Motors,2026-07-24,$72863,,removed
+1GCUKNEC0JF117443,Greg Gardner Motors,2026-07-24,$23995,,removed
