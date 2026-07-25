@@ -397,5 +397,11 @@
     "mpg_highway": "29",
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
+  },
+  "2024|gmc|sierra 3500hd sle": {
+    "mpg_city": "15",
+    "mpg_highway": "19",
+    "mpg_combined": "17",
+    "fuel_type_epa": "Gasoline or E85"
   }
 }
