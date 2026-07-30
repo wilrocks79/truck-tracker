@@ -403,5 +403,17 @@
     "mpg_highway": "19",
     "mpg_combined": "17",
     "fuel_type_epa": "Gasoline or E85"
+  },
+  "2023|toyota|tacoma trd sport premium package": {
+    "mpg_city": "18",
+    "mpg_highway": "22",
+    "mpg_combined": "20",
+    "fuel_type_epa": "Regular"
+  },
+  "2026|chevrolet|silverado ev extended range lt": {
+    "mpg_city": "75",
+    "mpg_highway": "61",
+    "mpg_combined": "68",
+    "fuel_type_epa": "Electricity"
   }
 }
