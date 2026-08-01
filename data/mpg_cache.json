@@ -415,5 +415,17 @@
     "mpg_highway": "61",
     "mpg_combined": "68",
     "fuel_type_epa": "Electricity"
+  },
+  "2022|gmc|sierra 3500hd denali": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2025|gmc|sierra 3500hd at4": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
   }
 }
