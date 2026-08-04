@@ -427,5 +427,11 @@
     "mpg_highway": "26",
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
+  },
+  "2016|gmc|sierra 1500 sle": {
+    "mpg_city": "16",
+    "mpg_highway": "21",
+    "mpg_combined": "18",
+    "fuel_type_epa": "Regular"
   }
 }
