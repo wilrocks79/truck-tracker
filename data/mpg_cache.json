@@ -434,5 +434,11 @@
     "mpg_combined": "18",
     "fuel_type_epa": "Regular"
   },
-  "2015|gmc|sierra 1500 sle": {}
+  "2015|gmc|sierra 1500 sle": {},
+  "2018|toyota|tacoma": {
+    "mpg_city": "18",
+    "mpg_highway": "22",
+    "mpg_combined": "20",
+    "fuel_type_epa": "Regular"
+  }
 }
