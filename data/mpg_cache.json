@@ -440,5 +440,11 @@
     "mpg_highway": "22",
     "mpg_combined": "20",
     "fuel_type_epa": "Regular"
+  },
+  "2022|gmc|sierra 3500hd sle": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
   }
 }
