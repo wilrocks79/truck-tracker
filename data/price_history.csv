@@ -352,3 +352,8 @@ vin,dealer,date,old_price,new_price,event
 1GCPTDE13L1155493,Greg Gardner Motors,2026-08-22,,,removed
 1GTU9BED7KZ329047,Greg Gardner Motors,2026-08-22,,,removed
 1GT49WEY4NF272595,Greg Gardner Motors,2026-08-22,$79900,,removed
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-08-23,$94900,$93900,price_change
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-08-23,,$93900,returned
+1FTFW3LD0RFB09657,Coastal Ford Squamish,2026-08-23,$52900,$51900,price_change
+1GTU9CETXMZ424119,Greg Gardner Motors,2026-08-23,$43900,,removed
+1GC4YTEY2PF247120,Greg Gardner Motors,2026-08-23,$69900,,removed
