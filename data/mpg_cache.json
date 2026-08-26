@@ -446,5 +446,11 @@
     "mpg_highway": "26",
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
+  },
+  "2026|toyota|tundra limited": {
+    "mpg_city": "17",
+    "mpg_highway": "22",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
   }
 }
