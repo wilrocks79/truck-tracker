@@ -464,5 +464,11 @@
     "mpg_highway": "21",
     "mpg_combined": "19",
     "fuel_type_epa": "Regular"
+  },
+  "2021|chevrolet|silverado 1500 rst": {
+    "mpg_city": "16",
+    "mpg_highway": "21",
+    "mpg_combined": "18",
+    "fuel_type_epa": "Premium"
   }
 }
