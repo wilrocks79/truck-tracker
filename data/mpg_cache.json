@@ -470,5 +470,23 @@
     "mpg_highway": "21",
     "mpg_combined": "18",
     "fuel_type_epa": "Premium"
+  },
+  "2021|ford|escape": {
+    "mpg_city": "26",
+    "mpg_highway": "31",
+    "mpg_combined": "28",
+    "fuel_type_epa": "Regular"
+  },
+  "2022|gmc|sierra 1500 at4": {
+    "mpg_city": "22",
+    "mpg_highway": "26",
+    "mpg_combined": "24",
+    "fuel_type_epa": "Diesel"
+  },
+  "2023|ford|f-150 lightning": {
+    "mpg_city": "76",
+    "mpg_highway": "61",
+    "mpg_combined": "68",
+    "fuel_type_epa": "Electricity"
   }
 }
