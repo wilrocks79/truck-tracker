@@ -488,5 +488,11 @@
     "mpg_highway": "61",
     "mpg_combined": "68",
     "fuel_type_epa": "Electricity"
+  },
+  "2022|nissan|frontier": {
+    "mpg_city": "17",
+    "mpg_highway": "21",
+    "mpg_combined": "19",
+    "fuel_type_epa": "Regular"
   }
 }
