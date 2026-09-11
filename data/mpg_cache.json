@@ -500,5 +500,11 @@
     "mpg_highway": "26",
     "mpg_combined": "24",
     "fuel_type_epa": "Diesel"
+  },
+  "2025|ford|f-150 lightning": {
+    "mpg_city": "78",
+    "mpg_highway": "63",
+    "mpg_combined": "70",
+    "fuel_type_epa": "Electricity"
   }
 }
