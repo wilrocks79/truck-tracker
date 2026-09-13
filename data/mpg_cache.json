@@ -506,5 +506,11 @@
     "mpg_highway": "63",
     "mpg_combined": "70",
     "fuel_type_epa": "Electricity"
+  },
+  "2022|ford|escape": {
+    "mpg_city": "26",
+    "mpg_highway": "31",
+    "mpg_combined": "28",
+    "fuel_type_epa": "Regular"
   }
 }
