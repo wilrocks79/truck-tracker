@@ -512,5 +512,11 @@
     "mpg_highway": "31",
     "mpg_combined": "28",
     "fuel_type_epa": "Regular"
+  },
+  "2021|ford|f-150": {
+    "mpg_city": "18",
+    "mpg_highway": "23",
+    "mpg_combined": "20",
+    "fuel_type_epa": "Regular"
   }
 }
