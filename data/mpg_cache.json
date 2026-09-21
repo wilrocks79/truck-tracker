@@ -518,5 +518,11 @@
     "mpg_highway": "23",
     "mpg_combined": "20",
     "fuel_type_epa": "Regular"
+  },
+  "2017|nissan|titan": {
+    "mpg_city": "15",
+    "mpg_highway": "21",
+    "mpg_combined": "18",
+    "fuel_type_epa": "Regular"
   }
 }
