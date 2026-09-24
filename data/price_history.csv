@@ -402,3 +402,5 @@ vin,dealer,date,old_price,new_price,event
 1N6ED1EKXNN651539,Squamish Toyota,2026-09-21,$40998,,removed
 3TYDZ5BN3NT008728,Squamish Toyota,2026-09-21,$46998,,removed
 1C6SRFUP6SN616209,Coastal Ford Squamish,2026-09-23,,$92900,returned
+1FTFW3L83RFA96373,Coastal Ford Squamish,2026-09-24,,$53900,new_listing
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-09-24,$92900,,removed
