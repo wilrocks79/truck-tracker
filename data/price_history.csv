@@ -413,3 +413,5 @@ vin,dealer,date,old_price,new_price,event
 1GTP2DEK2S1172215,Coastal Ford Squamish,2026-09-25,$57900,$56400,price_change
 1FTFW3LD0RFB09657,Coastal Ford Squamish,2026-09-25,$50900,$50400,price_change
 1C6SRFTT0NN480128,Coastal Ford Squamish,2026-09-26,$45500,,removed
+1C6SRFUP6SN616209,Coastal Ford Squamish,2026-09-28,,$92900,returned
+1C6SRFTT0NN480128,Coastal Ford Squamish,2026-09-28,,$45500,returned
