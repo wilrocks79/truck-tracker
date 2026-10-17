@@ -448,3 +448,4 @@ vin,dealer,date,old_price,new_price,event
 1GT49SEY5NF226010,Greg Gardner Motors,2026-10-15,$52900,,removed
 1GTP2DEK2S1172215,Coastal Ford Squamish,2026-10-16,$54900,$53900,price_change
 1FMCU9J96NUB36132,Coastal Ford Squamish,2026-10-16,$26900,$25900,price_change
+1FTFW1E53NKF17677,Coastal Ford Squamish,2026-10-17,,$69385,new_listing
