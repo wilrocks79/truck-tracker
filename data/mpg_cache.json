@@ -554,5 +554,11 @@
     "mpg_highway": "21",
     "mpg_combined": "17",
     "fuel_type_epa": "Regular"
+  },
+  "2026|ford|f-150": {
+    "mpg_city": "18",
+    "mpg_highway": "23",
+    "mpg_combined": "20",
+    "fuel_type_epa": "Regular"
   }
 }
